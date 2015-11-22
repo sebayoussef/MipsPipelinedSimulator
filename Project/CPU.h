@@ -5,7 +5,7 @@
 class CPU
 {
 public: 
-
+	  
 	CPU(string);    // class constructor receives the file name containing assembly code to be parsed
 	~CPU(); 
 	// Decode function
