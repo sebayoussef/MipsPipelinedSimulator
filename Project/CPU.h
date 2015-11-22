@@ -8,7 +8,7 @@ public:
 
 	CPU(string);    // class constructor receives the file name containing assembly code to be parsed
 	~CPU(); 
-	// Decode function	
+	// Decode function
 	void Decode();      // uses buffer1 as input and stores output in buffer2 
 
 private:
